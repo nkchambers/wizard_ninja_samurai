@@ -21,19 +21,19 @@ namespace wizard_ninja_samurai
 
 
             //Wizard Override Attack Method Test
-            //int nickHP = wizard.Attack(nick);
-            //Console.WriteLine(nick);
-            //Console.WriteLine(wizard);
+            int nickHP = wizard.Attack(nick);
+            Console.WriteLine(nick);
+            Console.WriteLine(wizard);
 
 
             //Wizard Heal Method Test
-            //wizard.Heal(nick);
-            //Console.WriteLine(nick);
+            wizard.Heal(nick);
+            Console.WriteLine(nick);
 
 
             //Ninja Override Attack Method Test
-            //int samuraiHP = ninja.Attack(samurai);
-            //Console.WriteLine(samurai);
+            int samuraiHP = ninja.Attack(samurai);
+            Console.WriteLine(samurai);
 
 
             //Ninja Seal Method Test
@@ -43,16 +43,14 @@ namespace wizard_ninja_samurai
 
 
             //Samurai Meditate Method Test
-            //samurai.Meditate();
-            //Console.WriteLine(samurai);
+            samurai.Meditate();
+            Console.WriteLine(samurai);
 
 
             //Samurai Override Attack Method
             ninjaHP = samurai.Attack(ninja);
             Console.WriteLine(ninja);
             
-
-
 
         }
     }
