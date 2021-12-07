@@ -8,9 +8,9 @@ namespace wizard_ninja_samurai
         {
             //Instantiate Human, Wizard, Ninja & Samurai (TEST)
             Human nick = new Human("Nick");
-            Wizard wizard = new Wizard("Gandalf", 40, 25);
-            Ninja ninja = new Ninja("Naruto", 25, 10, 20);
-            Samurai samurai = new Samurai("Jack", 20, 15, 25);
+            Wizard wizard = new Wizard("Gandalf");
+            Ninja ninja = new Ninja("Naruto");
+            Samurai samurai = new Samurai("Jack");
 
 
             //Print objects to console
@@ -20,10 +20,38 @@ namespace wizard_ninja_samurai
             Console.WriteLine(samurai);
 
 
-            /*//Wizard Overrride Attack Method Test
-            int nickHP = wizard.Attack(nick);
-            Console.WriteLine(nick);
-            Console.WriteLine(wizard);*/
+            //Wizard Override Attack Method Test
+            //int nickHP = wizard.Attack(nick);
+            //Console.WriteLine(nick);
+            //Console.WriteLine(wizard);
+
+
+            //Wizard Heal Method Test
+            //wizard.Heal(nick);
+            //Console.WriteLine(nick);
+
+
+            //Ninja Override Attack Method Test
+            //int samuraiHP = ninja.Attack(samurai);
+            //Console.WriteLine(samurai);
+
+
+            //Ninja Seal Method Test
+            int ninjaHP = ninja.Steal(samurai);
+            Console.WriteLine(ninja);
+            Console.WriteLine(samurai);
+
+
+            //Samurai Meditate Method Test
+            //samurai.Meditate();
+            //Console.WriteLine(samurai);
+
+
+            //Samurai Override Attack Method
+            ninjaHP = samurai.Attack(ninja);
+            Console.WriteLine(ninja);
+            
+
 
 
         }

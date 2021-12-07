@@ -15,6 +15,7 @@ namespace wizard_ninja_samurai
         public int health 
         { 
             get {return Health;}
+            set{}
         }
 
 
@@ -32,10 +33,10 @@ namespace wizard_ninja_samurai
             //this is implicit: doesn't
             //to be excplicitly written:
             //this.Name = name;
-            Strength = 25;
-            Intelligence = 25;
-            Dexterity = 45;
-            Health = 200;
+            Strength = 5;
+            Intelligence = 5;
+            Dexterity = 5;
+            Health = 100;
         }
 
 
@@ -53,11 +54,20 @@ namespace wizard_ninja_samurai
     //---------------------------Create Attack Method-------------------------------------
         public virtual int Attack(Human target)
         {
-            int damage = Strength * 5;
+            int damage = Strength * 3;
             target.Health -= damage;
             Console.WriteLine($"{Name} attacked {target.Name} for {damage} damage!");
             return target.Health;
 
+        }
+
+
+        //-------------------Create Base Attack Method to Call on for any damage dealt----------------------------
+        public virtual int Attack(Human target, int damage)
+        {
+            target.Health -= damage;
+            Console.WriteLine($"{Name} attacked {target.Name} for {damage} damage!");
+            return target.Health;
         }
 
 
