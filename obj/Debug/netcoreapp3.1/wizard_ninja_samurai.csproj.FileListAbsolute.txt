@@ -1,0 +1,13 @@
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\obj\Debug\netcoreapp3.1\wizard_ninja_samurai.csprojAssemblyReference.cache
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\obj\Debug\netcoreapp3.1\wizard_ninja_samurai.AssemblyInfoInputs.cache
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\obj\Debug\netcoreapp3.1\wizard_ninja_samurai.AssemblyInfo.cs
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\obj\Debug\netcoreapp3.1\wizard_ninja_samurai.csproj.CoreCompileInputs.cache
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\bin\Debug\netcoreapp3.1\wizard_ninja_samurai.exe
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\bin\Debug\netcoreapp3.1\wizard_ninja_samurai.deps.json
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\bin\Debug\netcoreapp3.1\wizard_ninja_samurai.runtimeconfig.json
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\bin\Debug\netcoreapp3.1\wizard_ninja_samurai.runtimeconfig.dev.json
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\bin\Debug\netcoreapp3.1\wizard_ninja_samurai.dll
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\bin\Debug\netcoreapp3.1\wizard_ninja_samurai.pdb
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\obj\Debug\netcoreapp3.1\wizard_ninja_samurai.dll
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\obj\Debug\netcoreapp3.1\wizard_ninja_samurai.pdb
+C:\Users\nick8\Desktop\C#\wizard_ninja_samurai\obj\Debug\netcoreapp3.1\wizard_ninja_samurai.genruntimeconfig.cache
