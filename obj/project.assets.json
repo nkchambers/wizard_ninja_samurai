@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nick8\\Desktop\\C#\\wizard_ninja_samurai\\wizard_ninja_samurai.csproj",
+      "projectUniqueName": "C:\\Users\\nick8\\Desktop\\Coding_Dojo\\C#\\wizard_ninja_samurai\\wizard_ninja_samurai.csproj",
       "projectName": "wizard_ninja_samurai",
-      "projectPath": "C:\\Users\\nick8\\Desktop\\C#\\wizard_ninja_samurai\\wizard_ninja_samurai.csproj",
+      "projectPath": "C:\\Users\\nick8\\Desktop\\Coding_Dojo\\C#\\wizard_ninja_samurai\\wizard_ninja_samurai.csproj",
       "packagesPath": "C:\\Users\\nick8\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nick8\\Desktop\\C#\\wizard_ninja_samurai\\obj\\",
+      "outputPath": "C:\\Users\\nick8\\Desktop\\Coding_Dojo\\C#\\wizard_ninja_samurai\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nick8\\AppData\\Roaming\\NuGet\\NuGet.Config"
